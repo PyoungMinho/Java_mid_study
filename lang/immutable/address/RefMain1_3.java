@@ -4,7 +4,7 @@ public class RefMain1_3 {
 
     public static void main(String[] args) {
         Address a = new Address("서울");
-        Address b = a;
+        Address b = a; // b가 a 랑 같은 주소를 참조하고 있어서 사이드 이펙트 발생
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         change(b, "부산");
