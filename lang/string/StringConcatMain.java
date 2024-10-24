@@ -7,7 +7,8 @@ public class StringConcatMain {
         String b = " java";
 
         String result1 = a.concat(b);
-        String result2 = a + b;
+        String result2 = a + b; // 참조값끼리 더할 수 없는데 String 예외로 허용
+
         System.out.println("result1 = " + result1);
         System.out.println("result2 = " + result2);
     }
