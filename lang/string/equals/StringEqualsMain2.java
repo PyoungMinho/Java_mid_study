@@ -13,7 +13,7 @@ public class StringEqualsMain2 {
     }
 
     private static boolean isSame(String x, String y) {
-        //return x == y;
+        //return x == y; => String str1 = new String("hello"); 랑 String str3 = "hello"; 리터럴 타입 뭐가 넘어올지 모르니깐 문자열 비교는 걍 equals 써라
         return x.equals(y);
     }
 }
