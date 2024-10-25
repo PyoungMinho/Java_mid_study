@@ -8,7 +8,7 @@ public class StringBuilderMain1_2 {
                 .insert(4, "Java")
                 .delete(4, 8)
                 .reverse()
-                .toString();
+                .toString(); // 메서드 체이닝 형태로 사용가능
 
         System.out.println("string = " + string);
     }

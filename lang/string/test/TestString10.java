@@ -14,5 +14,7 @@ public class TestString10 {
         //합치기
         String joinedString = String.join("->", splitFruits);
         System.out.println("joinedString = " + joinedString);
+        String joinedString2 = String.join(" yummy ", splitFruits);
+        System.out.println("joinedString2 = " + joinedString2);
     }
 }
