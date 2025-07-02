@@ -32,3 +32,5 @@ public class Main {
     System.out.print("M3");                     // (16)
   }
 }
+
+//M1M2P1P5C1P2P3C4C2C3P5C4M3
